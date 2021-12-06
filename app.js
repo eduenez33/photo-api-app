@@ -18,6 +18,6 @@ if (this.readyState == 4 && this.status == 200) {
     }
 };
 
-xhttp.open("GET", "https://api.pexels.com/v1/search?query=office&per_page=12", true);
+xhttp.open("GET", "https://api.pexels.com/v1/search?query=texas&per_page=12", true);
 xhttp.setRequestHeader('Authorization', `563492ad6f91700001000001a9bebb3c9aef447389f1ede8fdab3b1c`)
 xhttp.send();
