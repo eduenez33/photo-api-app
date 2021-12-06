@@ -16,7 +16,7 @@ searchForm.addEventListener('submit', function(e) {
                 var photoDiv = document.createElement('div');
                 photoDiv.classList.add('photo-div')
                 photoDiv.innerHTML = `
-                    <img src=${photo.medium} />
+                    <img src=${photo.large} />
                 `;
                 container.appendChild(photoDiv);
             })
